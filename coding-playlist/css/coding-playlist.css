@@ -1,0 +1,57 @@
+/*** BASE ***/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: #1f202b;
+}
+
+
+/*** GRID ***/
+
+.full-width {
+  width: 1200px;
+  padding: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/*** HEADER ***/
+
+header {
+  height: 45px;
+}
+
+h1 {
+  font-size: 20pt;
+  padding-left: 20px;
+}
+
+span {
+  color: #fa0075;
+  font-weight: bold;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fa0075;
+    padding-left: 40px;
+}
+
+/*** SPOTIFY WIDGET ***/
+
+#spotify-widget {
+  padding-left: 150px;
+}

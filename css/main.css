@@ -1,0 +1,202 @@
+/*** BASE ***/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: #1f202b;
+}
+
+h3 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: semibold;
+  font-size: 30pt;
+  color: #fa0075;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*** GRID ***/
+
+.full-width {
+  width: 1200px;
+  padding: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*** HEADER ***/
+
+header {
+  height: 800px;
+}
+
+h1 {
+  font-size: 20pt;
+  padding-left: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fa0075;
+    padding-left: 40px;
+}
+
+#container {
+  background: url('../img/hero-image.jpeg');
+  margin-top: 75px;
+  width: 100%;
+  height: 755px;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  background-position:center;
+  background-size:cover;
+}
+
+h2 {
+  font-size: 40pt;
+  margin-top: 160px;
+  margin-left: 30px;
+}
+
+span {
+  color: #fa0075;
+  font-weight: bold;
+}
+
+/*** PORTFOLIO ***/
+
+#portfolio {
+  height: 950px;
+}
+
+#portfolio .full-width {
+    text-decoration: none;
+}
+
+#portfolio img {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  width: 450px;
+  border: 3px solid #7b7b7b;
+}
+
+#portfolio h4 {
+    font-size: 18px;
+    width: 525px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+#portfolio h5 {
+    font-size: 16px;
+    width: 525px;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+#portfolio p {
+    font-size: 14px;
+    width: 525px;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+/*** ABOUT ***/
+
+#about {
+  height: 550px;
+  background: url('../img/about-me.jpeg');
+  width: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  background-position:center;
+  background-size:cover;
+  color: #1f202b;
+}
+
+#about h4, h5, p {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+#about h5 {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+#about h4 {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+#about p {
+  width: 700px;
+  font-size: 14pt;
+}
+
+/*** FOOTER ***/
+
+footer {
+  height: 350px;
+  text-align: center;
+}
+
+footer h5 {
+  margin-top: 125px;
+  font-size: 18pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 75px;
+}
+
+footer p {
+  font-size: 14pt;
+  padding-left: 75px;
+}
+
+br {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    width: 30px;
+    height: 30px;
+    padding-left: 45px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
