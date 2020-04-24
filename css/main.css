@@ -202,12 +202,12 @@ br {
 
 #contact ul li {
      display: inline-block;
+     float: left;
 }
 
 #contact ul img {
     width: 30px;
     height: 30px;
-    padding-left: 45px;
+    margin-left: 50px;
     padding-top: 20px;
-    margin-left: 10px;
 }
