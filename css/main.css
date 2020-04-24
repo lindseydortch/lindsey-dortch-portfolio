@@ -18,6 +18,7 @@ h3 {
 
 .full-width {
   width: 1200px;
+  margin: 0 auto;
   padding: 0 auto;
 }
 
@@ -84,7 +85,7 @@ span {
 /*** PORTFOLIO ***/
 
 #portfolio {
-  height: 950px;
+  height: 1000px;
 }
 
 #portfolio .full-width {
@@ -125,11 +126,13 @@ span {
 .left-float {
   float: left;
   height: 300px;
+  display: inline-block;
 }
 
 .right-float {
   float: right;
   height: 300px;
+  display: inline-block;
 }
 
 
@@ -178,12 +181,10 @@ footer h5 {
   font-size: 18pt;
   font-weight: bold;
   text-transform: uppercase;
-  padding-left: 75px;
 }
 
 footer p {
   font-size: 14pt;
-  padding-left: 75px;
 }
 
 br {
