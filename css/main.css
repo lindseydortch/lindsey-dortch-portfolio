@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 #container {
-  background: url('../img/hero-image.jpeg');
+  background: url('../img/hero-image.jpeg')no-repeat center center fixed;
   margin-top: 75px;
   width: 100%;
   height: 755px;
